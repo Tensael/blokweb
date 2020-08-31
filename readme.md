@@ -69,9 +69,9 @@ https://www.ice-ice-baby.nl/
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/flavors)
-(images/home.png)
-(images/ice.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/flavors.png)
+![](images/home.png)
+![](images/ice.png)
 
 **Breakdown-schets(en):**
 
