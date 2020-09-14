@@ -1,7 +1,7 @@
 /* CSS Document */
 @font-face {
   font-family: headfont;
-  src: url('/fonts/FontsFree-Net-Lulo-Clean-W01-One-Bold.ttf');
+  src: url('./fonts/FontsFree-Net-Lulo-Clean-W01-One-Bold.ttf');
 }
 *, *::after, *::before {
   box-sizing:border-box;  
