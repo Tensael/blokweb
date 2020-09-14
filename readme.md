@@ -58,21 +58,14 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je startniveau:** -kies uit zwart, rood óf blauw-
 
-Blauwe Piste
-
 **Je focus:** -kies uit responsive óf surface plane-
-Surface plane
 
 **Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
 
-https://www.ice-ice-baby.nl/
-
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/flavors.PNG)
-![](images/home.PNG)
-![](images/ice.PNG)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/dummy-image.svg)
 
 **Breakdown-schets(en):**
 
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/breakdown-schets.png)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/dummy-image.svg)
