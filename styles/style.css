@@ -64,9 +64,10 @@ header + section img {
 }
 header + section img + img {
   width: 22em;
-  left: 1em; right: calc(50% - 11em); top: 4em; bottom: 1em;
+  display: block;
   padding: 0px;
-  margin: auto;
+  margin: 0 auto;
+  margin-top: 295px;
 }
 header + section p {
   position: absolute;
@@ -135,10 +136,13 @@ header + section + section + section {
 }
 header + section + section + section img {
  position: absolute;
- width: 450px;
- top: auto; left: auto;
+ width: 100vw;
+ display: block;
+ margin: 0 auto;
+ z-
 }
 header + section + section + section h5 {
+  position: relative;
   font-family: secondfont;
   font-size: 38px;
   text-transform: uppercase;
@@ -148,6 +152,7 @@ header + section + section + section h5 {
   padding-top: 150px;
 }
 header + section + section + section h3 {
+  position: relative;
   font-family: headfont;
   font-size: 65px;
   text-transform: uppercase;
@@ -155,7 +160,6 @@ header + section + section + section h3 {
   padding: 0px 10px;
   text-align: center;
   margin: auto;
-  z-index: 1;
 }
 header + section + section + section button {
   position: relative;
