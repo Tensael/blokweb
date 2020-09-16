@@ -43,7 +43,7 @@ Ook kwam ik er nog niet uit met het hamburger menu.
 
 **Screenshot(s):**
 
-(images/145e42f07fe46d21d117024108d1bab4.mp4)
+https://gyazo.com/145e42f07fe46d21d117024108d1bab4
 
 ### Agenda voor meeting
 

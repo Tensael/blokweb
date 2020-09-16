@@ -20,6 +20,7 @@
 }
 body {
   margin: 0px;
+  padding: 0px;
 }
 header p {
   font-family: secondfont;
@@ -170,9 +171,16 @@ header + section + section + section button {
   text-transform: uppercase;
   color: white;
 }
+header + section + section + section + section {
+  height: 500px;
+  background: url(../images/kids.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0px;
+}
 header + section + section + section + section img {
   position: relative;
-  width: 450px;
+  width: 400px;
   top: 0px; left: 0px; right: 0px;
   margin: 0px;
  }
@@ -199,4 +207,20 @@ header + section + section + section + section h3 {
   padding: 0px 10px;
   text-align: center;
   margin: auto;
+}
+header + section + section + section + section + section {
+  margin-top: -25px;
+  padding-top: 0px;
+  height: 500px;
+  width: 100vw;
+  background: url(../images/bolletje-ijsje-bolletje.png), #68c8de;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+header + section + section + section + section + section img {
+  position: absolute;
+  left: 1em; right: 1em; top: 150em; bottom: 1em;
+  margin: auto;
+  margin-top: 60px;
+  width: 250px;
 }
