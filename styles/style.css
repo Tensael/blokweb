@@ -63,7 +63,7 @@ header + section img {
 }
 header + section img + img {
   width: 22em;
-  left: 1em; right: calc(50% - 15em); top: 4em; bottom: 1em;
+  left: 1em; right: calc(50% - 11em); top: 4em; bottom: 1em;
   padding: 0px;
   margin: auto;
 }
@@ -178,7 +178,7 @@ header + section + section + section + section img {
  }
  header + section + section + section + section h5 {
    position: absolute;
-   top: 60em; left: calc(50% - 100px);
+   top: 60em; left: calc(50% - 90px);
    width: 180px;
   font-family: secondfont;
   font-size: 38px;
@@ -190,7 +190,8 @@ header + section + section + section + section img {
 }
 header + section + section + section + section h3 {
   position: absolute;
-  top: 67em; left: calc(50% - 230px);
+  width: 400px;
+  top: 67em; left: calc(50% - 200px);
   font-family: headfont;
   font-size: 35px;
   text-transform: uppercase;
