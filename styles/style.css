@@ -3,6 +3,18 @@
   font-family: headfont;
   src: url('./fonts/FontsFree-Net-Lulo-Clean-W01-One-Bold.ttf');
 }
+@font-face {
+  font-family: secondfont;
+  src: url('./fonts/DIN\ 30640\ Std\ Neuzeit\ Grotesk\ Bold\ Cond.otf');
+}
+@font-face {
+  font-family: sexyfont;
+  src: url('./fonts/Belinda\ W00\ Regular.ttf');
+}
+@font-face {
+  font-family: boringbutton;
+  src: url('./fonts/FuturaLT-Book.ttf');
+}
 *, *::after, *::before {
   box-sizing:border-box;  
 }
@@ -10,40 +22,180 @@ body {
   margin: 0px;
 }
 header p {
-  font-family: sans-serif;
+  font-family: secondfont;
+  font-size: 16px;
   text-align: center;
   color: #68c8de;
-  font-weight: 600;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+a {
+  text-decoration: none;
+}
+li {
+  text-decoration: none;
+  text-align: right;
+  list-style-type: none;
 }
 h1 {
   font-family: headfont;
   font-weight: 900;
   text-align: center;
   color: white;
+  position: absolute;
+  width: 12em;
+  left: calc(50% - 6em);
+  
 }
-.hamburgermenu {
-  text-align: center;
-}
-nav {
-  background-color: #68c8de;
-}
-.headerslider {
+section:first-of-type {
   background-color: #68c8de;
   margin: 0em;
   position: relative;
   display: flex;
+  height: 800px;
 }
-.imgstaysafe {
+header + section img {
   position: absolute;
-  left: 1em; right: 1em; top: 10em; bottom: 1em;
-  margin: auto;
-  width: 250px;
-  display: flex;
-  justify-content: center;
-}
-.imgijsje {
-  width: 200px;
   left: 1em; right: 1em; top: 1em; bottom: 1em;
+  margin: auto;
+  margin-top: 60px;
+  width: 250px;
+}
+header + section img + img {
+  width: 22em;
+  left: 1em; right: calc(50% - 15em); top: 4em; bottom: 1em;
+  padding: 0px;
+  margin: auto;
+}
+header + section p {
+  position: absolute;
+  top: 20em; left: calc(50% - 140px);
+  font-family: headfont;
+  background-color: white;
   padding: 10px;
+  width: 280px;
+  text-align: center;
+  font-size: 27px;
+}
+header + section button {
+  position: absolute;
+  width: 220px;
+  height: 70px;
+  top:25em; left: calc(50% - 110px); right: 0px; bottom: 0px;
+  padding: 10px;
+  text-align: center;
+  background-color: transparent;
+  border: 2px solid white;
+  font-family: secondfont;
+  font-size: 26px;
+  text-transform: uppercase;
+  color: white;
+}
+header + section + section h2 {
+  color: #68c8de;
+  font-family: secondfont;
+  font-size: 34px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+}
+header + section + section h3 {
+  text-align: center;
+  font-family: sexyfont;
+  font-size: 26px;
+  font-weight: 200;
+}
+header + section + section p {
+  font-family: secondfont;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 30px;
+}
+header + section + section button {
+  background-color: #68c8de;
+  padding: 10px;
+  font-family: boringbutton;
+  width: 200px;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-style: italic;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  margin-bottom: 170px;
+}
+header + section + section + section {
+  background-color: #68c8de;
+  height: 500px;
+}
+header + section + section + section img {
+ position: absolute;
+ width: 450px;
+ top: auto; left: auto;
+}
+header + section + section + section h5 {
+  font-family: secondfont;
+  font-size: 38px;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  margin: auto;
+  padding-top: 150px;
+}
+header + section + section + section h3 {
+  font-family: headfont;
+  font-size: 65px;
+  text-transform: uppercase;
+  color: white;
+  padding: 0px 10px;
+  text-align: center;
+  margin: auto;
+  z-index: 1;
+}
+header + section + section + section button {
+  position: relative;
+  width: 180px;
+  height: 50px;
+  top:0; left: calc(50% - 110px); right: 0px; bottom: 0px;
+  padding: 0px;
+  text-align: center;
+  background-color: transparent;
+  border: 2px solid white;
+  font-family: secondfont;
+  font-size: 26px;
+  text-transform: uppercase;
+  color: white;
+}
+header + section + section + section + section img {
+  position: relative;
+  width: 450px;
+  top: 0px; left: 0px; right: 0px;
+  margin: 0px;
+ }
+ header + section + section + section + section h5 {
+   position: absolute;
+   top: 60em; left: calc(50% - 100px);
+   width: 180px;
+  font-family: secondfont;
+  font-size: 38px;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  margin: auto;
+  padding-top: 0px;
+}
+header + section + section + section + section h3 {
+  position: absolute;
+  top: 67em; left: calc(50% - 230px);
+  font-family: headfont;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: white;
+  padding: 0px 10px;
+  text-align: center;
   margin: auto;
 }
