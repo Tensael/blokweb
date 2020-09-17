@@ -50,9 +50,9 @@ h1 {
 }
 section:first-of-type {
   background-color: #68c8de;
-  margin: 0em;
+  margin: 0;
   position: relative;
-  display: flex;
+  display: block;
   height: 800px;
 }
 header + section img {
@@ -139,7 +139,6 @@ header + section + section + section img {
  width: 100vw;
  display: block;
  margin: 0 auto;
- z-
 }
 header + section + section + section h5 {
   position: relative;
@@ -165,7 +164,7 @@ header + section + section + section button {
   position: relative;
   width: 180px;
   height: 50px;
-  top:0; left: calc(50% - 110px); right: 0px; bottom: 0px;
+  top:0; left: calc(50% - 90px); right: 0px; bottom: 0px;
   padding: 0px;
   text-align: center;
   background-color: transparent;
@@ -181,6 +180,7 @@ header + section + section + section + section {
   background-repeat: no-repeat;
   background-position: center;
   margin: 0px;
+  background-size: cover;
 }
 header + section + section + section + section img {
   position: relative;
@@ -191,7 +191,7 @@ header + section + section + section + section img {
  header + section + section + section + section h5 {
    position: absolute;
    top: 60em; left: calc(50% - 90px);
-   width: 180px;
+  width: 180px;
   font-family: secondfont;
   font-size: 38px;
   text-transform: uppercase;
@@ -220,6 +220,7 @@ header + section + section + section + section + section {
   background: url(../images/bolletje-ijsje-bolletje.png), #68c8de;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 header + section + section + section + section + section img {
   position: absolute;
