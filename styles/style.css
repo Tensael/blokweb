@@ -18,9 +18,56 @@
 *, *::after, *::before {
   box-sizing:border-box;  
 }
+@media(max-width: 1036px){
+  nav {
+    display: none;
+  }
+  nav.toonMenu {
+    display: block;
+    transition: ease-in 1s;
+  }
+  nav ul li {
+    text-align: center;
+    font-family: secondfont;
+    font-size: 18px;
+    color: #68c8de;
+    padding: 10px;
+    text-transform: uppercase;
+  }
+  nav ul li a {
+    color: #68c8de;
+  }
+}
+@media(min-width: 1037px){
+  .hamburger {
+    display: none;
+  }
+  nav {
+    display: initial;
+  }
+  nav ul {
+    display: flex;
+  }
+  nav ul li {
+    justify-content: flex-start;
+    padding: 10px;
+    font-family: secondfont;
+    text-transform: uppercase;
+  }
+  nav ul li a {
+    color: white;
+  }
+  nav ul li a:hover {
+    color: black;
+  }
+}
+.hamburger {
+  text-align: center;
+}
 body {
   margin: 0px;
   padding: 0px;
+  overflow-x: hidden;
 }
 header p {
   font-family: secondfont;
@@ -112,9 +159,10 @@ header + section + section p {
   text-align: center;
   font-weight: 400;
   letter-spacing: 1px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
   line-height: 30px;
+  font-size: 18px;
 }
 header + section + section button {
   background-color: #68c8de;
@@ -139,6 +187,7 @@ header + section + section + section img {
  width: 100vw;
  display: block;
  margin: 0 auto;
+ max-width: 50em;
 }
 header + section + section + section h5 {
   position: relative;
@@ -153,7 +202,7 @@ header + section + section + section h5 {
 header + section + section + section h3 {
   position: relative;
   font-family: headfont;
-  font-size: 65px;
+  font-size: 55px;
   text-transform: uppercase;
   color: white;
   padding: 0px 10px;
@@ -187,10 +236,11 @@ header + section + section + section + section img {
   width: 400px;
   top: 0px; left: 0px; right: 0px;
   margin: 0px;
+  height: 100vw;
  }
  header + section + section + section + section h5 {
    position: absolute;
-   top: 60em; left: calc(50% - 90px);
+   top: 58em; left: calc(50% - 90px);
   width: 180px;
   font-family: secondfont;
   font-size: 38px;
@@ -203,7 +253,7 @@ header + section + section + section + section img {
 header + section + section + section + section h3 {
   position: absolute;
   width: 400px;
-  top: 67em; left: calc(50% - 200px);
+  top: 65em; left: calc(50% - 200px);
   font-family: headfont;
   font-size: 35px;
   text-transform: uppercase;
@@ -222,10 +272,28 @@ header + section + section + section + section + section {
   background-position: center;
   background-size: cover;
 }
-header + section + section + section + section + section img {
+header + section + section + section + section + section h5 {
   position: absolute;
-  left: 1em; right: 1em; top: 150em; bottom: 1em;
-  margin: auto;
-  margin-top: 60px;
-  width: 250px;
+  font-family: secondfont;
+  text-transform: uppercase;
+  color: white;
+  font-size: 40px;
+  left: calc(50% - 85px); top: 70em;
+}
+footer {
+  display: grid;
+  background-color: #68c8de;
+  grid-template-columns: 4;
+}
+.item1 {
+  grid-column-start: 1;
+}
+.item2 {
+  grid-column-start: 2;
+}
+.item3 {
+  grid-column-start: 3;
+}
+.item4 {
+  grid-column-start: 4;
 }
