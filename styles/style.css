@@ -20,11 +20,12 @@
 }
 @media(max-width: 1036px){
   nav {
-    display: none;
+    height: 0px;
+    transition: height 1s;
   }
   nav.toonMenu {
-    display: block;
-    transition: ease-in 1s;
+    height: auto;
+    
   }
   nav ul li {
     text-align: center;
@@ -47,6 +48,8 @@
   }
   nav ul {
     display: flex;
+    background-color: #68c8de;
+    margin: 0;
   }
   nav ul li {
     justify-content: flex-start;
@@ -63,11 +66,20 @@
 }
 .hamburger {
   text-align: center;
+  padding: 20px;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden !important;
+}
+
 body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+  max-width: 100vw;
 }
 header p {
   font-family: secondfont;
@@ -76,6 +88,7 @@ header p {
   color: #68c8de;
   font-weight: 200;
   letter-spacing: 1px;
+  padding: 20px;
 }
 a {
   text-decoration: none;
@@ -101,6 +114,7 @@ section:first-of-type {
   position: relative;
   display: block;
   height: 800px;
+  margin-top: -1px;
 }
 header + section img {
   position: absolute;
@@ -181,13 +195,15 @@ header + section + section button {
 header + section + section + section {
   background-color: #68c8de;
   height: 500px;
+  position: relative;
+  overflow: hidden;
 }
 header + section + section + section img {
  position: absolute;
- width: 100vw;
- display: block;
- margin: 0 auto;
- max-width: 50em;
+ width: 90vw;
+ left: 0; right: 0; bottom: 0; top: 0;
+ margin: auto;
+ 
 }
 header + section + section + section h5 {
   position: relative;
@@ -230,6 +246,7 @@ header + section + section + section + section {
   background-position: center;
   margin: 0px;
   background-size: cover;
+  position: relative;
 }
 header + section + section + section + section img {
   position: relative;
@@ -240,9 +257,9 @@ header + section + section + section + section img {
  }
  header + section + section + section + section h5 {
    position: absolute;
-   top: 58em; left: calc(50% - 90px);
+  top: 0; left: 0; right: 0; bottom: 0;
   width: 180px;
-  font-family: secondfont;
+  font-family: secondfont;  
   font-size: 38px;
   text-transform: uppercase;
   color: white;
@@ -252,15 +269,16 @@ header + section + section + section + section img {
 }
 header + section + section + section + section h3 {
   position: absolute;
-  width: 400px;
-  top: 65em; left: calc(50% - 200px);
-  font-family: headfont;
-  font-size: 35px;
-  text-transform: uppercase;
-  color: white;
-  padding: 0px 10px;
-  text-align: center;
-  margin: auto;
+    top: 65em;
+    left: 0;
+    right: 0;
+    font-family: headfont;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: white;
+    padding: 0px 10px;
+    text-align: center;
+    margin: auto;
 }
 header + section + section + section + section + section {
   margin-top: -25px;
