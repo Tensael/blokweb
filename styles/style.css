@@ -50,6 +50,8 @@
     display: flex;
     background-color: #68c8de;
     margin: 0;
+    padding-left: 4em;
+    padding-top: 1em;
   }
   nav ul li {
     justify-content: flex-start;
@@ -62,6 +64,10 @@
   }
   nav ul li a:hover {
     color: black;
+  }
+  footer {
+    display: flex;
+    background-color: #68c8de;
   }
 }
 .hamburger {
@@ -256,10 +262,14 @@ header + section + section + section + section img {
   height: 100vw;
  }
  header + section + section + section + section h5 {
-   position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   width: 180px;
-  font-family: secondfont;  
+  height: 50px;
+  font-family: secondfont;
   font-size: 38px;
   text-transform: uppercase;
   color: white;
@@ -269,9 +279,11 @@ header + section + section + section + section img {
 }
 header + section + section + section + section h3 {
   position: absolute;
-    top: 65em;
+    top: 4em;
     left: 0;
     right: 0;
+    bottom: 0;
+    height: 100px;
     font-family: headfont;
     font-size: 35px;
     text-transform: uppercase;
@@ -299,19 +311,102 @@ header + section + section + section + section + section h5 {
   left: calc(50% - 85px); top: 70em;
 }
 footer {
-  display: grid;
   background-color: #68c8de;
-  grid-template-columns: 4;
 }
-.item1 {
-  grid-column-start: 1;
+
+footer ul {
+  padding: 30px;
 }
-.item2 {
-  grid-column-start: 2;
+footer ul li {
+  text-align: left;
+  padding-left: 30px;
+  padding: 10px;
+  color: white;
+  font-family: secondfont;
+  font-size: 18px;
+  letter-spacing: 2px;
 }
-.item3 {
-  grid-column-start: 3;
+.footerkopje {
+  font-family: secondfont;
+  font-size: 34px;
+  text-transform: uppercase;
 }
-.item4 {
-  grid-column-start: 4;
+/*  Pagina 2: Flavors CSS */
+.pagina2 section:first-of-type {
+  background-color:#68c8de;
+  height: 300px;
 }
+.pagina2 section:first-of-type h3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: secondfont;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: white;
+  font-size: 115px;
+  font-style: italic;
+  padding-top: 30px;
+}
+
+h3 > span {
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 38px;
+}
+.pagina2 section:nth-of-type(2) {
+ display: grid; 
+ grid-template-columns: repeat(auto-fit, minmax(10rem, 20rem));
+ justify-content: center;
+}
+figure {
+  text-align: center;
+  margin-top: 50px;
+}
+figcaption {
+  font-family: secondfont;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 3px solid #68c8de;
+  padding-bottom: 15px;
+  width: 250px;
+}
+.pagina2 h4 {
+  font-family: secondfont;
+  font-size: 38px;
+  text-transform: uppercase;
+  border-bottom: 3px solid black;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px; 
+  width: 300px;
+}
+.pagina2 section:nth-of-type(3) {
+  display: grid; 
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 20rem));
+  justify-content: center;
+ }
+
+figure > p {
+   color: white;
+   background-color: #2f2e2e;
+   padding: 5px;
+   font-family: sans-serif;
+   letter-spacing: 1.68px;
+   display: inline-block;
+   margin-top: 20px;
+   font-size: 11px;
+ }
+ .pagina2 section:nth-of-type(4) {
+  display: grid; 
+  grid-template-columns: repeat(auto-fill, minmax(10rem, 20rem));
+  justify-content: center;
+  margin-bottom: 150px;
+ }

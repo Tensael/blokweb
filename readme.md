@@ -30,7 +30,27 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+Hamburger menu is gelukt, verder merk ik zelf dat de oude html css skills van leerjaar 1 nu terug zijn en zelfs
+verder ontwikkeld. zelf ben ik nu aan het kijken welke animatie ik ga toepassen.
+
+**Screenshot(s):**
+
+https://gyazo.com/145e42f07fe46d21d117024108d1bab4
+
+### Agenda voor meeting
+
+Mehmet: 9:20-9:35
+Roos: 9:35-9:50
+Mila: 9:50-10:05
+Tensael: 10:05-10:20
+Tom: 10:20-10:25
+
+### Verslag van meeting
+
+min-width, max-width gebruiken (media queries)
+element aan de rechter kant te breed, waardoor je kan scrollen in het document.
+
+
 
 
 
@@ -55,7 +75,8 @@ Tom: 10:20-10:25
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+min-width, max-width gebruiken (media queries)
+element aan de rechter kant te breed, waardoor je kan scrollen in het document.
 
 
 
