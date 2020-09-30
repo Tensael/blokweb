@@ -30,25 +30,26 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
-Hamburger menu is gelukt, verder merk ik zelf dat de oude html css skills van leerjaar 1 nu terug zijn en zelfs
-verder ontwikkeld. zelf ben ik nu aan het kijken welke animatie ik ga toepassen.
+Hamburger menu is gelukt, verder merk ik zelf dat de html/css skills van leerjaar 1 nu terug zijn en zelfs
+verbeterd zijn. Met de opdracht ben ik best ver, ik moet de footer afmaken en een animatie toepassen.
 
 **Screenshot(s):**
 
-https://gyazo.com/145e42f07fe46d21d117024108d1bab4
+https://gyazo.com/141f3d42d18b7d4e637d3139cd28c6b3
+https://gyazo.com/8aebd54263b9fcba66ad52b466bebda5
+https://gyazo.com/897318bfbce4bf1e27792c8490c10ce6
 
 ### Agenda voor meeting
 
-Mehmet: 9:20-9:35
-Roos: 9:35-9:50
-Mila: 9:50-10:05
-Tensael: 10:05-10:20
-Tom: 10:20-10:25
+Roos: 9:20-9:35
+Mila: 9:35-9:50
+Tensael: 9:50-10:05
+Tom: 10:05-10:20
+Mehmet: 10:20-10:25
 
 ### Verslag van meeting
 
-min-width, max-width gebruiken (media queries)
-element aan de rechter kant te breed, waardoor je kan scrollen in het document.
+
 
 
 
