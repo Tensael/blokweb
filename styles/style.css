@@ -66,8 +66,11 @@
     color: black;
   }
   footer {
-    display: flex;
+    display: grid;
     background-color: #68c8de;
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 20rem));
+    justify-content: center;
+
   }
 }
 .hamburger {
@@ -326,9 +329,26 @@ footer ul li {
   font-size: 18px;
   letter-spacing: 2px;
 }
-.footerkopje {
+ Footer ul > li:first-of-type {
   font-family: secondfont;
   font-size: 34px;
+  text-transform: uppercase;
+}
+input {
+  padding: 15px;
+  border: 1px  solid white;
+  border-radius: 10px;
+  width: 250px;
+}
+button {
+  padding: 15px;
+  margin-top: 10px;
+  width: 250px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 10px;
+  font-family: secondfont;
+  color: #68c8de;
   text-transform: uppercase;
 }
 /*  Pagina 2: Flavors CSS */
@@ -410,3 +430,4 @@ figure > p {
   justify-content: center;
   margin-bottom: 150px;
  }
+ 
