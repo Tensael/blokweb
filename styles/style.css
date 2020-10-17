@@ -21,11 +21,13 @@
 @media(max-width: 1036px){
   nav {
     height: 0px;
-    transition: height 1s;
+    transform: translateY(-100vh);
+    transition: transform .5s;
   }
   nav.toonMenu {
     height: auto;
-    
+    transform: translateY(0);
+    overflow: hidden;
   }
   nav ul li {
     text-align: center;
@@ -37,6 +39,17 @@
   }
   nav ul li a {
     color: #68c8de;
+  }
+  header + section + section p {
+    font-family: secondfont;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-left: 1em;
+    padding-right: 1em;
+    line-height: 30px;
+    font-size: 18px;
+    margin: 20px;
   }
 }
 @media(min-width: 1037px){
@@ -71,6 +84,17 @@
     grid-template-columns: repeat(auto-fill, minmax(10rem, 20rem));
     justify-content: center;
 
+  }
+  header + section + section p {
+    font-family: secondfont;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-left: 20em;
+    padding-right: 20em;
+    line-height: 30px;
+    font-size: 18px;
+    margin: 20px;
   }
 }
 .hamburger {
@@ -177,16 +201,6 @@ header + section + section h3 {
   font-size: 26px;
   font-weight: 200;
 }
-header + section + section p {
-  font-family: secondfont;
-  text-align: center;
-  font-weight: 400;
-  letter-spacing: 1px;
-  padding-left: 50px;
-  padding-right: 50px;
-  line-height: 30px;
-  font-size: 18px;
-}
 header + section + section button {
   background-color: #68c8de;
   padding: 10px;
@@ -200,6 +214,7 @@ header + section + section button {
   display: block;
   margin: auto;
   margin-bottom: 170px;
+  color: white;
 }
 header + section + section + section {
   background-color: #68c8de;
@@ -273,7 +288,7 @@ header + section + section + section + section img {
   width: 180px;
   height: 50px;
   font-family: secondfont;
-  font-size: 38px;
+  font-size: 34px;
   text-transform: uppercase;
   color: white;
   text-align: center;
@@ -288,7 +303,7 @@ header + section + section + section + section h3 {
     bottom: 0;
     height: 100px;
     font-family: headfont;
-    font-size: 35px;
+    font-size: 30px;
     text-transform: uppercase;
     color: white;
     padding: 0px 10px;
@@ -430,4 +445,17 @@ figure > p {
   justify-content: center;
   margin-bottom: 150px;
  }
- 
+ ul > li a {
+   text-decoration: none;
+   color: white;
+ }
+
+ figure > img:hover {
+   transform: scale(1.4);
+ }
+ figure > img {
+  transition: all 3s linear;
+}
+ figure {
+   overflow: visible;
+ }
