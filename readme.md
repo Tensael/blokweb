@@ -6,25 +6,43 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. https://www.ice-ice-baby.nl/
+2. HvA DLO Opdrachten
+3. https://css-tricks.com/
 
 
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+In het begin was het wel echt wennen, omdat ik het niet vaak heb gebruikt na internetstandaarden.
+Het javascript gedeelte vond ik ook wel lastig, omdat ik het vak niet heb gehaald en de logica er achter niet snap.
+
+Wat wel goed ging is dat ik het snel weer opgepakt had waardoor, het best makkelijk was.
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+(images/eindresulthome.png)
+(images/eindresultflavor.png)
 
 
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+Footer afgerond en klikbaar gemaakt en animatie toegevoegd.
+
+**Screenshot(s):**
+
+(images/screencapture-file-C-Users-tenna-Documents-CMD-Leerjaar-2-Blok-1-Frontend-Development-basiswebsite-index-html-2020-10-18-14_19_47.png)
+### Agenda voor meeting
+
+Tensael: 9:50-10:05
+Tom: 10:05-10:20
+
+
+### Verslag van meeting
+
+
+Leesbaarheid tekst regels, en als je tijd over hebt experimenteren. 
 
 
 
@@ -50,7 +68,7 @@ Mehmet: 10:20-10:25
 ### Verslag van meeting
 
 
-
+Telefoonnummer en email klikbaar maken en paar dingen resizen.
 
 
 
